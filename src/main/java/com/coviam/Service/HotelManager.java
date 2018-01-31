@@ -1,8 +1,11 @@
 package com.coviam.Service;
 
 import com.coviam.Entity.Dao.HotelDao;
+import com.coviam.Entity.Dao.RoomTypeDao;
 import com.coviam.Entity.model.Hotel;
+import com.coviam.Entity.model.RoomType;
 import com.coviam.repository.HotelRepository;
+import com.coviam.repository.RoomTypeRepository;
 import com.coviam.util.ConstantsUtil;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -14,7 +17,7 @@ public class HotelManager {
 
     @Autowired HotelRepository hotelRepository;
     @Autowired ConstantsUtil constantsUtil;
-  //  @Autowired RoomTypeRepository roomTypeRepository;
+    @Autowired RoomTypeRepository roomTypeRepository;
 
     public String hotelSearch(HttpServletRequest request) {
 
@@ -36,7 +39,7 @@ public class HotelManager {
         return constantsUtil.FAILURE;
     }
 
-  /*  public String saveRoomTypeDetails(RoomType roomType) {
+    public String saveRoomTypeDetails(RoomType roomType) {
         RoomTypeDao roomTypeDao = new RoomTypeDao(roomType.getRoomName(), roomType.getRoomPrice(), roomType.getNoOfBeds(), roomType.getIsFreeBreakfast(), roomType.getIsFreeWifi(),
                     roomType.getMaxAdult(), roomType.getMaxChild(), roomType.getNoOfRooms(), roomType.getHotelId(), roomType.getRoomImage());
         RoomTypeDao roomTypeRes = roomTypeRepository.save(roomTypeDao);
@@ -44,5 +47,5 @@ public class HotelManager {
             return constantsUtil.SUCCESS;
 
         return constantsUtil.FAILURE;
-    }*/
+    }
 }

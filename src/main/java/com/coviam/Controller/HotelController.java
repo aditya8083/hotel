@@ -1,5 +1,6 @@
 package com.coviam.Controller;
 import com.coviam.Entity.model.Hotel;
+import com.coviam.Entity.model.RoomType;
 import com.coviam.Service.HotelManager;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -38,7 +39,6 @@ public class HotelController {
         return hotelSaveResponse;
     }
 
-/*
 
     @RequestMapping(
             value = "/saveRoomTypeDetails",
@@ -50,6 +50,6 @@ public class HotelController {
         String roomTypeSaveResponse = hotelManager.saveRoomTypeDetails(roomType);
         return roomTypeSaveResponse;
     }
-*/
+
 
 }
