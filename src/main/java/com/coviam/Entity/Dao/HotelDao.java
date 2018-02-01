@@ -7,50 +7,26 @@ import javax.persistence.*;
 
 
 @Entity(name = "HotelDao")
-@Table(name = "hotel")
+@Table(name = "HotelDao")
 @EntityListeners(AuditingEntityListener.class)
 public class HotelDao extends Auditable<String> {
 
     @Id
-    @Column(name = "hotel_id")
+    @Column(name = "hotelId")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @SequenceGenerator(name = "hotel_id", sequenceName = "hotel_id", allocationSize = 1, initialValue = 1)
+    @SequenceGenerator(name = "hotelId", sequenceName = "hotelId", allocationSize = 1, initialValue = 1)
     private Long hotelId;
-
-    @Column(name = "hotel_name")
     private String hotelName;
-
-    @Column(name = "city")
     private String city;
-
-    @Column(name = "hotel_location")
     private String hotelLocation;
-
-    @Column(name = "post_code")
     private String postCode;
-
-    @Column(name = "checkin_time")
     private String checkinTime;
-
-    @Column(name = "checkout_time")
     private String checkoutTime;
-
-    @Column(name = "latitude")
     private String latitude;
-
-    @Column(name = "longitude")
     private String longitude;
-
-    @Column(name = "country")
     private String country;
-
-    @Column(name = "star_rating")
     private String starRating;
-
-    @Column(name = "user_rating")
     private String userRating;
-
-    @Column(name = "hotel_image")
     private String hotelImage;
 
 

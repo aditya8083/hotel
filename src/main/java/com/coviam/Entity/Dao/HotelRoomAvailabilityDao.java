@@ -7,7 +7,7 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 
 @Entity(name = "HotelRoomAvailabilityDao")
-@Table(name = "hotel_room_availability")
+@Table(name = "HotelRoomAvailabilityDao")
 @EntityListeners(AuditingEntityListener.class)
 public class HotelRoomAvailabilityDao extends Auditable<String> {
 
@@ -18,17 +18,9 @@ public class HotelRoomAvailabilityDao extends Auditable<String> {
     @GeneratedValue(strategy = GenerationType.AUTO)
     @SequenceGenerator(name = "id", sequenceName = "id", allocationSize = 1, initialValue = 1)
     private Long id;
-
-    @Column(name = "hotel_id")
     private String hotelId;
-
-    @Column(name = "room_type_id")
     private String roomTypeId;
-
-    @Column(name = "check_in_date")
     private String checkInDate;
-
-    @Column(name = "check_out_date")
     private String checkOutDate;
 
     public Long getId() {

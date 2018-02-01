@@ -1,5 +1,8 @@
 package com.coviam.util;
 
+
+import org.springframework.stereotype.Component;
+
 public class GenericErrorType {
 
 

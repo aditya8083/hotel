@@ -7,44 +7,24 @@ import org.springframework.data.jpa.domain.support.AuditingEntityListener;
 import javax.persistence.*;
 
 @Entity(name = "RoomTypeDao")
-@Table(name = "room_type")
+@Table(name = "RoomTypeDao")
 @EntityListeners(AuditingEntityListener.class)
 public class RoomTypeDao extends Auditable<String> {
 
     @Id
-    @Column(name = "room_id")
+    @Column(name = "roomId")
     @GeneratedValue(strategy = GenerationType.AUTO)
-    @SequenceGenerator(name = "room_id", sequenceName = "room_id", allocationSize = 1, initialValue = 20000)
+    @SequenceGenerator(name = "roomId", sequenceName = "roomId", allocationSize = 1, initialValue = 20000)
     private Long roomId;
-
-    @Column(name = "room_name")
     private String roomName;
-
-    @Column(name = "room_price")
     private String roomPrice;
-
-    @Column(name = "no_of_beds")
     private String NoOfBeds;
-
-    @Column(name = "is_free_breakfast")
     private String isFreeBreakfast;
-
-    @Column(name = "is_free_wifi")
     private String isFreeWifi;
-
-    @Column(name = "max_adult")
     private String maxAdult;
-
-    @Column(name = "max_child")
     private String maxChild;
-
-    @Column(name = "no_of_rooms")
     private String noOfRooms;
-
-    @Column(name = "hotel_id")
     private Long hotelId;
-
-    @Column(name = "room_image")
     private String roomImage;
 
     public Long getRoomId() {
