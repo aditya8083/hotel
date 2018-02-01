@@ -94,8 +94,13 @@ public class HotelManager {
     }*/
 
     public String hotelDetail(HttpServletRequest request) {
-
-        return "";
+        JSONObject hotelDetailsObj = new JSONObject();
+        Long hotelId = Long.parseLong(request.getParameter("hotelId"));
+        HotelDao hotelResult = hotelRepository.findHotelById(hotelId);
+        List<RoomTypeDao> roomDetails = roomTypeRepository.findRoomsByHotelId(hotelId);
+        hotelDetailsObj.put("hotelDetail",new JSONObject(hotelResult) );
+        hotelDetailsObj.put("roomDetails", roomDetails);
+        return hotelDetailsObj.toString();
     }
 
     public String saveHotelDetails(Hotel hotel) {

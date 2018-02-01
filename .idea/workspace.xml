@@ -2,53 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="c6a2427e-bcc3-4d5c-8485-8d110670728c" name="Default" comment="">
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Controller/UserController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/HotelPriceFilter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/request/HotelSearchRequest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/util/HotelConstants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/util/HotelUtil.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_0_12_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_0_0_Final.xml" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/Dao/HotelDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/Dao/HotelDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/Dao/HotelRoomAvailabilityDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/Dao/HotelRoomAvailabilityDao.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/Dao/RoomTypeDao.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Entity/Dao/RoomTypeDao.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/Service/HotelManager.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/Service/HotelManager.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/repository/RoomTypeRepository.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/repository/RoomTypeRepository.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/util/GenericErrorType.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/util/GenericErrorType.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/util/HttpUtility.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/util/HttpUtility.java" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/coviam/util/InteractionData.java" afterPath="$PROJECT_DIR$/src/main/java/com/coviam/util/InteractionData.java" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Controller/HotelController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Controller/bookingController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Controller/paymentController.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Entity/Dao/HotelDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Entity/Dao/HotelRoomAvailabilityDao.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Entity/model/Hotel.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Entity/model/HotelRoomAvailability.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/HotelApplication.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Service/BookingManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Service/HotelManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/Service/PaymentManager.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/repository/HotelRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/repository/HotelRoomAvailabilityRepository.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/Auditable.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/AuditorAwareImpl.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/ConstantsUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/EscapeCharacter.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/GenericErrorType.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/HttpUtility.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/IOCompressUtil.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/InteractionData.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/RandomGenerator.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/coviam/util/ResponseEntity.class" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT.jar" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/hotel-1.0-SNAPSHOT.jar.original" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -66,21 +22,31 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="HotelManager.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="HotelManager.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Service/HotelManager.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="230">
-              <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+            <state relative-caret-position="1230">
+              <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="InvocableHandlerMethod.java" pinned="false" current-in-tab="false">
-        <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/4.3.13.RELEASE/spring-web-4.3.13.RELEASE-sources.jar!/org/springframework/web/method/support/InvocableHandlerMethod.java">
+      <file leaf-file-name="HotelPriceFilter.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/HotelPriceFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="213" column="0" lean-forward="false" selection-start-line="213" selection-start-column="0" selection-end-line="213" selection-end-column="0" />
+            <state relative-caret-position="240">
+              <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Hotel.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/Hotel.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="975">
+              <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
               <folding />
             </state>
           </provider>
@@ -89,18 +55,8 @@
       <file leaf-file-name="RoomTypeRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/RoomTypeRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="13" column="139" lean-forward="false" selection-start-line="13" selection-start-column="139" selection-end-line="13" selection-end-column="139" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="HotelUtil.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/util/HotelUtil.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="24" column="28" lean-forward="false" selection-start-line="24" selection-start-column="28" selection-end-line="24" selection-end-column="28" />
+            <state relative-caret-position="150">
+              <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
               <folding />
             </state>
           </provider>
@@ -536,8 +492,8 @@
       <file leaf-file-name="HotelRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
+            <state relative-caret-position="330">
+              <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -615,9 +571,9 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/HotelPriceFilter.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coviam/util/HotelUtil.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coviam/repository/RoomTypeRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/coviam/Service/HotelManager.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java" />
       </list>
     </option>
   </component>
@@ -702,43 +658,6 @@
               <item name="coviam" type="462c0819:PsiDirectoryNode" />
               <item name="Entity" type="462c0819:PsiDirectoryNode" />
               <item name="model" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coviam" type="462c0819:PsiDirectoryNode" />
-              <item name="Entity" type="462c0819:PsiDirectoryNode" />
-              <item name="request" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coviam" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coviam" type="462c0819:PsiDirectoryNode" />
-              <item name="Service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hotel" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hotel" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="coviam" type="462c0819:PsiDirectoryNode" />
-              <item name="util" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -935,14 +854,6 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/com/coviam/Service/HotelManager.java</url>
-          <line>43</line>
-          <properties />
-          <option name="timeStamp" value="10" />
-        </line-breakpoint>
-      </breakpoints>
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
@@ -1379,14 +1290,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/Hotel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="975">
-          <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-webmvc/4.3.13.RELEASE/spring-webmvc-4.3.13.RELEASE.jar!/org/springframework/web/servlet/mvc/method/annotation/RequestMappingHandlerAdapter.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="114">
@@ -1526,14 +1429,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/HotelPriceFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="106">
-          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/request/HotelSearchRequest.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="180">
@@ -1554,14 +1449,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="11" column="13" lean-forward="false" selection-start-line="11" selection-start-column="13" selection-end-line="11" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/RoomTypeRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="13" column="139" lean-forward="false" selection-start-line="13" selection-start-column="139" selection-end-line="13" selection-end-column="139" />
           <folding />
         </state>
       </provider>
@@ -1995,14 +1882,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="27" column="83" lean-forward="false" selection-start-line="27" selection-start-column="83" selection-end-line="27" selection-end-column="83" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRoomAvailabilityRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="75">
@@ -2011,10 +1890,42 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/HotelRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="330">
+          <caret line="30" column="13" lean-forward="false" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/repository/RoomTypeRepository.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="16" column="60" lean-forward="false" selection-start-line="16" selection-start-column="60" selection-end-line="16" selection-end-column="60" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Service/HotelManager.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="230">
-          <caret line="55" column="46" lean-forward="false" selection-start-line="55" selection-start-column="46" selection-end-line="55" selection-end-column="46" />
+        <state relative-caret-position="1230">
+          <caret line="104" column="0" lean-forward="false" selection-start-line="104" selection-start-column="0" selection-end-line="104" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/HotelPriceFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="22" column="5" lean-forward="true" selection-start-line="22" selection-start-column="5" selection-end-line="22" selection-end-column="5" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/coviam/Entity/model/Hotel.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="975">
+          <caret line="113" column="20" lean-forward="false" selection-start-line="113" selection-start-column="20" selection-end-line="113" selection-end-column="20" />
           <folding />
         </state>
       </provider>

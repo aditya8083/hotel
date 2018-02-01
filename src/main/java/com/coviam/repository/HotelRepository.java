@@ -26,4 +26,7 @@ public interface HotelRepository extends JpaRepository<HotelDao, Long> {
 
     @Query("select h from HotelDao h where h.hotelId in :filteredHotelIdsWithoutDuplicates ")
     List<HotelDao> findHotelByHotelIds(@Param("filteredHotelIdsWithoutDuplicates") List<Long> filteredHotelIdsWithoutDuplicates);
+
+    @Query("select h from HotelDao h where h.hotelId = :hotelId ")
+    HotelDao findHotelById(@Param("hotelId") Long hotelId);
 }
