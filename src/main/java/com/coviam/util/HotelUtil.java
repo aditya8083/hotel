@@ -1,6 +1,6 @@
 package com.coviam.util;
 
-import com.coviam.Entity.model.HotelPriceFilter;
+import com.coviam.entity.model.HotelPriceFilter;
 import org.springframework.stereotype.Component;
 
 import java.util.*;

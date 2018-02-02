@@ -1,11 +1,10 @@
 package com.coviam.Service;
 
-import com.coviam.Entity.Dao.HotelDao;
-import com.coviam.Entity.Dao.RoomTypeDao;
-import com.coviam.Entity.model.Hotel;
-import com.coviam.Entity.model.HotelPriceFilter;
-import com.coviam.Entity.model.RoomType;
-import com.coviam.Entity.request.HotelSearchRequest;
+import com.coviam.entity.Dao.HotelDao;
+import com.coviam.entity.Dao.RoomTypeDao;
+import com.coviam.entity.model.Hotel;
+import com.coviam.entity.model.HotelPriceFilter;
+import com.coviam.entity.model.RoomType;
 import com.coviam.repository.HotelRepository;
 import com.coviam.repository.RoomTypeRepository;
 import com.coviam.util.ConstantsUtil;
@@ -17,11 +16,8 @@ import org.json.JSONObject;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
-import javax.persistence.*;
-import javax.transaction.Transactional;
 import java.util.ArrayList;
 import java.util.List;
-import java.util.Map;
 import java.util.stream.Collectors;
 
 

@@ -1,0 +1,16 @@
+{
+  "groups": [
+    {
+      "name": "endpoint",
+      "type": "com.coviam.Service.TransactionService",
+      "sourceType": "com.coviam.Service.TransactionService"
+    },
+    {
+      "name": "endpoint",
+      "type": "com.coviam.Service.BookingManager",
+      "sourceType": "com.coviam.Service.BookingManager"
+    }
+  ],
+  "properties": [],
+  "hints": []
+}

@@ -1,6 +1,7 @@
 package com.coviam.Controller;
-import com.coviam.Entity.model.Hotel;
-import com.coviam.Entity.model.RoomType;
+
+import com.coviam.entity.model.Hotel;
+import com.coviam.entity.model.RoomType;
 import com.coviam.Service.HotelManager;
 import org.apache.catalina.servlet4preview.http.HttpServletRequest;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -13,7 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class HotelController {
 
-    @Autowired HotelManager hotelManager;
+    @Autowired
+    HotelManager hotelManager;
 
     @RequestMapping(value = "/hotel/search", method = RequestMethod.GET)
     public String searchHotel(HttpServletRequest request) {
@@ -21,6 +23,7 @@ public class HotelController {
         String searchResult = hotelManager.hotelSearch(request);
         return searchResult;
     }
+
     @RequestMapping(value = "/hotel/detail", method = RequestMethod.GET)
     public String getHotelDetail(HttpServletRequest request) {
         System.out.println("getting Hotel Details");
